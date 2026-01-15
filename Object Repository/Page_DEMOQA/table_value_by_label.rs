@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_value_by_label</name>
+   <tag></tag>
+   <elementGuidId>90270d83-584c-4dfe-9754-ae55a622cc23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[normalize-space(text())='${label}']/following-sibling::td&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>table_value_by_label</name>
+      <type>Main</type>
+      <value>//td[normalize-space(.)='Student Name']/following-sibling::td</value>
+      <webElementGuid>8863edb9-d532-4773-9aa4-3cd2f45082f8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
