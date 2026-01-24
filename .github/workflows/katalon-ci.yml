@@ -25,6 +25,7 @@ jobs:
           powershell -Command "Expand-Archive katalon.zip -DestinationPath C:\\katalon"
 
       - name: Run Katalon Test
+        shell: cmd
         run: |
           "C:\katalon\Katalon_Studio_Engine_Windows_64-9.0.0\katalonc.exe" ^
           -noSplash ^
